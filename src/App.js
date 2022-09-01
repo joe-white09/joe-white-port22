@@ -22,7 +22,19 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <About />
+        { currentCategory.name === 'about' && 
+          <About></About>
+        }
+        { currentCategory.name === 'portfolio' &&
+        <div>This is the portfolio page</div>
+        }
+        { currentCategory.name === 'contact' && 
+        <div>this is the contact page</div>
+        }
+        { currentCategory.name === 'resume' && 
+        <div>this is the resume page</div>
+        }
+        <footer>This is the footer</footer>
       </main>
     </div>
   );

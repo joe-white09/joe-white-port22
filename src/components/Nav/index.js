@@ -5,7 +5,7 @@ function Nav(props) {
     {
         categories = [],
         setCurrentCategory,
-        currentCategory
+        currentCategory,
     } = props;
 
     useEffect(() => {
@@ -31,6 +31,7 @@ function Nav(props) {
               <span
                 onClick={() => {
                   setCurrentCategory(category);
+                  console.log(currentCategory);
                 }}
               >
                 {(category.name)}
