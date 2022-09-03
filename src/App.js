@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import { useState } from 'react';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [categories] = useState([
@@ -26,7 +27,7 @@ function App() {
           <About></About>
         }
         { currentCategory.name === 'portfolio' &&
-        <div>This is the portfolio page</div>
+          <Portfolio></Portfolio>
         }
         { currentCategory.name === 'contact' && 
         <div>this is the contact page</div>

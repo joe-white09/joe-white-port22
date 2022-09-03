@@ -5,8 +5,9 @@ main {
 }
 
 :root {
-  --primary: beige;
-  --secondary: brown;
+  --primary: #FFD07B;
+  --secondary: #B1740F;
+  --tertiary: #296EB4;
 }
 
 body {
@@ -35,7 +36,10 @@ h2 {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--primary);
+  background-color: var(--tertiary);
+  border-radius: 25px;
+  padding: 10px;
 }
 
 nav  li {
@@ -56,4 +60,44 @@ nav  li {
   margin-bottom: 50px;
   cursor: pointer;
 
+}
+
+.my-projects h2 {
+  font-size: 45px;
+  background: var(--secondary);
+  color: var(--tertiary);
+}
+
+.my-projects {
+  justify-content: space-around;
+  text-align: center;
+}
+.my-projects ul { 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.my-projects ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px;
+  margin: 10px 10px;
+  justify-content: space-around;
+  border: solid 5px var(--tertiary);
+  border-radius: 10%;
+  background: var(--secondary);
+  max-width: 300px;
+}
+
+.my-projects h3 {
+  font-size: 30px;
+}
+
+.my-projects img {
+  max-width: 100%;
+  max-height: auto;
+  border: solid 5px var(--tertiary);
+  border-radius: 10%;
 }
