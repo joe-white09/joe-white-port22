@@ -49,13 +49,13 @@ const ProjectList = () => {
     return (
         <ul>
             {projects.map((image, i) => (
-                <li>
+                <li key={image.name}>
                     <h3>{image.title}</h3>
                         <img
                             src={require(`../../assets/projects/${image.name}.png`)}
                             alt={image.alt}
                             className="img-thumbnail mx-2"
-                            key={image.name}
+                            
                         />
                         {image.deployedUrl === '' ? (
                             <p>Project is not deployed online</p>

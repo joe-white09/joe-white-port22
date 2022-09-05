@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import { useState } from 'react';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
@@ -33,7 +34,7 @@ function App() {
           <ContactForm></ContactForm>
         }
         { currentCategory.name === 'resume' && 
-        <div>this is the resume page</div>
+          <Resume></Resume>
         }
         <footer>This is the footer</footer>
       </main>
