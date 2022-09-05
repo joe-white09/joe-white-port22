@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -36,7 +37,7 @@ function App() {
         { currentCategory.name === 'resume' && 
           <Resume></Resume>
         }
-        <footer>This is the footer</footer>
+        <Footer></Footer>
       </main>
     </div>
   );

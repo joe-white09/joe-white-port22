@@ -139,3 +139,38 @@ label {
 .error-text {
   color: red;
 }
+
+footer {
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 45px;
+  background: #619606;
+  color: #181599;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+footer ul li{
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px;
+  background: #069678;
+  border-radius: 30%;
+  margin: 10px 10px;
+  border: solid 2px #619606;
+}
+
+footer ul li img {
+  border-radius: 30%;
+  border: solid 2px #619606;
+ 
+}
