@@ -4,7 +4,7 @@ function About() {
     return(
         <section>
             <h1>About Me</h1>
-            <img src={profileImage}  id="profilePic" style= {{ width: "100%" }} alt="Profile Picture"></img>
+            <img src={profileImage}  id="profilePic" style= {{ width: "100%" }} alt="Selfie"></img>
             <div>
                 <p>
                     My name is Joe White. I began learning to code in April, 2022. Enrolled in Vanderbilt University Coding Bootcamp,

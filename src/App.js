@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import { useState } from 'react';
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact';
 
 function App() {
   const [categories] = useState([
@@ -30,7 +30,7 @@ function App() {
           <Portfolio></Portfolio>
         }
         { currentCategory.name === 'contact' && 
-        <div>this is the contact page</div>
+          <ContactForm></ContactForm>
         }
         { currentCategory.name === 'resume' && 
         <div>this is the resume page</div>
