@@ -61,9 +61,9 @@ const ProjectList = () => {
                         {image.deployedUrl === '' ? (
                             <p>Project is not deployed online</p>
                         ) : (
-                            <a href={image.deployedUrl} className="btn" target={"_blank"}>Check it out!</a>
+                            <a href={image.deployedUrl} className="btn" target={"_blank"} rel="noreferrer">Check it out!</a>
                         )}
-                        <a href={image.gitHubUrl} className="btn" target={"_blank"}>GitHub Repository</a>
+                        <a href={image.gitHubUrl} className="btn" target={"_blank"} rel="noreferrer">GitHub Repository</a>
                 </li>
             ))}
         </ul>
