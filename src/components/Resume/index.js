@@ -4,8 +4,8 @@ const Resume = () => {
     return(
         <section>
             <h2>
-                <Link to={resumeFile} target="_blank" download className='section'>Download my Resume! 
-                <span role='img' arial-label='download'>⬇️</span></Link>
+                <a href={resumeFile} download="JoeWhite-WebDeveloper-Resume.pdf" className='section'>Download my Resume! 
+                <span role='img' arial-label='download'>⬇️</span></a>
             </h2>
             <div>
                 <h3 className='section'>My Proficiencies</h3>
