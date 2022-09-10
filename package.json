@@ -1,7 +1,7 @@
 {
   "name": "joe-white-port22",
   "version": "0.1.0",
-  "homepage": "http://joe-white09/.github.io/joe-white-port22",
+  "homepage": "http://joe-white09.github.io/joe-white-port22",
   "private": true,
   "dependencies": {
     "@testing-library/user-event": "^12.8.3",
