@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/joe-white-port22/static/css/main.16736051.css",
-    "main.js": "/joe-white-port22/static/js/main.0c77fa0d.js",
+    "main.js": "/joe-white-port22/static/js/main.d1def92c.js",
     "static/js/787.152f7416.chunk.js": "/joe-white-port22/static/js/787.152f7416.chunk.js",
     "static/media/adoptables.png": "/joe-white-port22/static/media/adoptables.31fc7d681378f4df0d0e.png",
     "static/media/weather-dashboard.png": "/joe-white-port22/static/media/weather-dashboard.93c45c9b6cdb18459b90.png",
@@ -13,11 +13,11 @@
     "static/media/team-profile-generator.png": "/joe-white-port22/static/media/team-profile-generator.07a7edc0c92c60dd2570.png",
     "index.html": "/joe-white-port22/index.html",
     "main.16736051.css.map": "/joe-white-port22/static/css/main.16736051.css.map",
-    "main.0c77fa0d.js.map": "/joe-white-port22/static/js/main.0c77fa0d.js.map",
+    "main.d1def92c.js.map": "/joe-white-port22/static/js/main.d1def92c.js.map",
     "787.152f7416.chunk.js.map": "/joe-white-port22/static/js/787.152f7416.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16736051.css",
-    "static/js/main.0c77fa0d.js"
+    "static/js/main.d1def92c.js"
   ]
 }
