@@ -35,7 +35,7 @@ function ContactForm() {
 
     return(
         <section>
-            <h1>Contact Me</h1>
+            <h1 className="section">Contact Me</h1>
             <div>
                 <p>Contact Form is not fully finished, please contact by Email or Phone</p>
                     <ul>

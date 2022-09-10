@@ -47,25 +47,27 @@ const ProjectList = () => {
     ]);
 
     return (
+        <div className='my-projects'>
         <ul>
             {projects.map((image, i) => (
                 <li key={image.name}>
-                    <h3>{image.title}</h3>
                         <img
                             src={require(`../../assets/projects/${image.name}.png`)}
                             alt={image.alt}
                             className="img-thumbnail mx-2"
                             
                         />
+                        <h3>{image.title}</h3>
                         {image.deployedUrl === '' ? (
                             <p>Project is not deployed online</p>
                         ) : (
-                            <a href={image.deployedUrl}>Check it out!</a>
+                            <a href={image.deployedUrl} className="btn" target={"_blank"}>Check it out!</a>
                         )}
-                        <a href={image.gitHubUrl}>GitHub Repository</a>
+                        <a href={image.gitHubUrl} className="btn" target={"_blank"}>GitHub Repository</a>
                 </li>
             ))}
         </ul>
+        </div>
     );
 };
 

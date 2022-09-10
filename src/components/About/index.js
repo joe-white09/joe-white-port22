@@ -3,7 +3,7 @@ import profileImage from "../../assets/profile/profile.png"
 function About() {
     return(
         <section>
-            <h1>About Me</h1>
+            <h1 className="section">About Me</h1>
             <img src={profileImage}  id="profilePic" style= {{ width: "100%" }} alt="Selfie"></img>
             <div>
                 <p>

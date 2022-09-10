@@ -4,10 +4,11 @@ const Resume = () => {
     return(
         <section>
             <h2>
-                <a href={resumeFile} download>Download my Resume!</a>
+                <a href={resumeFile} download className='section'>Download my Resume! 
+                <span role='img' arial-label='download'>⬇️</span></a>
             </h2>
             <div>
-                <h3>My Proficiencies</h3>
+                <h3 className='btn'>My Proficiencies</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>

@@ -2,8 +2,8 @@ import ProjectList from '../ProjectList';
 
 function Portfolio() {
     return(
-        <section id='projects' className='my-projects'>
-            <h1>Portfolio</h1>
+        <section id='projects' >
+            <h1 className='section'>Portfolio</h1>
             <ProjectList />
         </section>
     );

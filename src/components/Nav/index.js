@@ -14,11 +14,9 @@ function Nav(props) {
     }, [currentCategory]);
 
     return(
-        <header className="flex-row">
-            <h2>
-                <a href="/">
+        <header className="flex-row header-img">
+            <h2 className="section name">
                     Joe White
-                </a>
             </h2>
             <nav>
                 <ul className="flex-row">
