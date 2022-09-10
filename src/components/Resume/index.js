@@ -8,7 +8,7 @@ const Resume = () => {
                 <span role='img' arial-label='download'>⬇️</span></a>
             </h2>
             <div>
-                <h3 className='btn'>My Proficiencies</h3>
+                <h3 className='section'>My Proficiencies</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
