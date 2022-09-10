@@ -4,8 +4,8 @@ const Resume = () => {
     return(
         <section>
             <h2>
-                <a href={resumeFile} download className='section'>Download my Resume! 
-                <span role='img' arial-label='download'>⬇️</span></a>
+                <Link to={resumeFile} target="_blank" download className='section'>Download my Resume! 
+                <span role='img' arial-label='download'>⬇️</span></Link>
             </h2>
             <div>
                 <h3 className='section'>My Proficiencies</h3>
