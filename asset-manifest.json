@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/.github.io/joe-white-port22/static/css/main.16736051.css",
-    "main.js": "/.github.io/joe-white-port22/static/js/main.614f769d.js",
-    "static/js/787.152f7416.chunk.js": "/.github.io/joe-white-port22/static/js/787.152f7416.chunk.js",
-    "static/media/adoptables.png": "/.github.io/joe-white-port22/static/media/adoptables.31fc7d681378f4df0d0e.png",
-    "static/media/weather-dashboard.png": "/.github.io/joe-white-port22/static/media/weather-dashboard.93c45c9b6cdb18459b90.png",
-    "static/media/profile.png": "/.github.io/joe-white-port22/static/media/profile.c999fa4d686f2d198330.png",
-    "static/media/living-local.png": "/.github.io/joe-white-port22/static/media/living-local.24ad4652223ad3ed32cb.png",
-    "static/media/portfolio.png": "/.github.io/joe-white-port22/static/media/portfolio.7745b167e692dcc80700.png",
-    "static/media/JoeWhite_WebDeveloper_Resume.pdf": "/.github.io/joe-white-port22/static/media/JoeWhite_WebDeveloper_Resume.36f253973c75986297f2.pdf",
-    "static/media/the-tech-blog.png": "/.github.io/joe-white-port22/static/media/the-tech-blog.81f2c60d4aaf280c62a8.png",
-    "static/media/team-profile-generator.png": "/.github.io/joe-white-port22/static/media/team-profile-generator.07a7edc0c92c60dd2570.png",
-    "index.html": "/.github.io/joe-white-port22/index.html",
-    "main.16736051.css.map": "/.github.io/joe-white-port22/static/css/main.16736051.css.map",
-    "main.614f769d.js.map": "/.github.io/joe-white-port22/static/js/main.614f769d.js.map",
-    "787.152f7416.chunk.js.map": "/.github.io/joe-white-port22/static/js/787.152f7416.chunk.js.map"
+    "main.css": "/joe-white-port22/static/css/main.16736051.css",
+    "main.js": "/joe-white-port22/static/js/main.ecbe7df5.js",
+    "static/js/787.152f7416.chunk.js": "/joe-white-port22/static/js/787.152f7416.chunk.js",
+    "static/media/adoptables.png": "/joe-white-port22/static/media/adoptables.31fc7d681378f4df0d0e.png",
+    "static/media/weather-dashboard.png": "/joe-white-port22/static/media/weather-dashboard.93c45c9b6cdb18459b90.png",
+    "static/media/profile.png": "/joe-white-port22/static/media/profile.c999fa4d686f2d198330.png",
+    "static/media/living-local.png": "/joe-white-port22/static/media/living-local.24ad4652223ad3ed32cb.png",
+    "static/media/portfolio.png": "/joe-white-port22/static/media/portfolio.7745b167e692dcc80700.png",
+    "static/media/JoeWhite_WebDeveloper_Resume.pdf": "/joe-white-port22/static/media/JoeWhite_WebDeveloper_Resume.36f253973c75986297f2.pdf",
+    "static/media/the-tech-blog.png": "/joe-white-port22/static/media/the-tech-blog.81f2c60d4aaf280c62a8.png",
+    "static/media/team-profile-generator.png": "/joe-white-port22/static/media/team-profile-generator.07a7edc0c92c60dd2570.png",
+    "index.html": "/joe-white-port22/index.html",
+    "main.16736051.css.map": "/joe-white-port22/static/css/main.16736051.css.map",
+    "main.ecbe7df5.js.map": "/joe-white-port22/static/js/main.ecbe7df5.js.map",
+    "787.152f7416.chunk.js.map": "/joe-white-port22/static/js/787.152f7416.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16736051.css",
-    "static/js/main.614f769d.js"
+    "static/js/main.ecbe7df5.js"
   ]
 }
