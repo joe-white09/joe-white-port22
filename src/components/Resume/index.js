@@ -1,4 +1,4 @@
-import resumeFile from '../../assets/resume/JoeWhite_WebDeveloper_Resume.pdf';
+import resumeFile from '../../assets/resume/JoeWhite-WebDeveloper-Resume.pdf';
 
 const Resume = () => {
     return(
