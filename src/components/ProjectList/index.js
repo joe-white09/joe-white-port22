@@ -3,6 +3,16 @@ import React, {useState} from 'react';
 const ProjectList = () => {
     const [projects] = useState([
         {
+            name: 'quizard',
+            title: 'Quizard',
+            alt: 'Site to create and take quizzes',
+            technologies: 'HTML, CSS, JavaScript, React, Node.js, GraphQl, Apollo, MongoDB, Heroku',
+            role: 'Designed custom CSS',
+            description: 'Create and take quizzes made by other users to help study, learn trivia, or test your knowlege against others!',
+            deployedUrl: 'https://ltb-quizard.herokuapp.com/',
+            gitHubUrl: 'https://github.com/NangTuong/Quizard'
+        },
+        {
             name: 'adoptables',
             title: 'Adoptables',
             alt: 'Adoption site for pets',
